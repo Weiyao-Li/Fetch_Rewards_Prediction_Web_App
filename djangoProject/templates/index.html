@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Receipt Prediction</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'myapp/index.css' %}">
+</head>
+<body>
+    <h1>Receipt Prediction</h1>
+    <form id="predict-form">
+        <label for="sequence">Enter the last three month's receipt counts (comma-separated):</label>
+        <input type="text" id="sequence" name="sequence" required>
+        <button type="submit">Predict</button>
+    </form>
+    <div id="result"></div>
+    <script src="{% static 'myapp/index.js' %}"></script>
+</body>
+</html>
