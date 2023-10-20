@@ -39,3 +39,6 @@ You can also make predictions using the API as follows:
 
 ```bash
 curl "http://127.0.0.1:8000/predict/?sequence=<sequence_of_last_three_months>"
+```
+![image](https://github.com/Weiyao-Li/Fetch_Rewards_Prediction_Web_App/blob/main/webApp.jpg)
+
