@@ -22,5 +22,7 @@ num_layers = 1
 model = LSTMModel(input_dim, hidden_dim, num_layers)
 # Load the trained model
 model = LSTMModel(1, 32, 1)
-model.load_state_dict(torch.load("/Users/weiyaoli/Desktop/djangoProject/model"))
+# model refers to the one
+# model path example:/Users/weiyaoli/Desktop/Fetch_Rewards_Prediction_Web_App/djangoProject/model
+model.load_state_dict(torch.load("/Users/weiyaoli/Desktop/Fetch_Rewards_Prediction_Web_App/djangoProject/model"))
 model.eval()
